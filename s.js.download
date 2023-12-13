@@ -7,4 +7,22 @@ setTimeout(function () {
   }, 4000);
 
 
-  
+  var checkbox = document.querySelector('.ui-switch input[type="checkbox"]');
+
+let bd = document.body;
+
+function change(){
+
+
+    if(checkbox.checked){
+        
+        bd.classList.add('bdnew');
+        
+    }else{
+        bd.classList.remove('bdnew');
+
+    }
+
+
+
+}
